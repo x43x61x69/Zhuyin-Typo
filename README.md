@@ -1,5 +1,7 @@
 #Zhuyin Typo
 
+![Status](https://img.shields.io/badge/Build-v0.3-green.svg?style=flat-square)  ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)
+
 作者：[Zhi-Wei Cai](http://vox.vg/)
 
 ##終結忘記切換輸入法的惡夢
@@ -17,9 +19,12 @@
 
 ##目前已實作的語言
 
-- AppleScript (OS X)
-- Objective-C (OS X)
-- Python (OS X, Windows)
+- **AppleScript** (OS X)
+- **Objective-C** (OS X)
+- **Python** (OS X, Windows*)
+
+**尚待修正。*
+
 
 ##更新日誌
 
