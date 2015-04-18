@@ -1,6 +1,6 @@
 #Zhuyin Typo
 
-[![作者](https://img.shields.io/badge/作者-Zhi--Wei_Cai-red.svg?style=flat-square)](http://vox.vg/)  ![版本](https://img.shields.io/badge/版本-v0.3-green.svg?style=flat-square)  [![授權](https://img.shields.io/badge/授權-MIT-blue.svg?style=flat-square)][License]
+[![作者](https://img.shields.io/badge/作者-Zhi--Wei_Cai-red.svg?style=flat-square)](http://vox.vg/)  ![版本](https://img.shields.io/badge/版本-v0.3.1-green.svg?style=flat-square)  [![授權](https://img.shields.io/badge/授權-MIT-blue.svg?style=flat-square)][License]
 
 ##終結忘記切換輸入法的惡夢
 
