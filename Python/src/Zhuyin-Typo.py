@@ -3,7 +3,7 @@
 
 #
 # Name:	Zhuyin Typo
-# Version:	0.3
+# Version:	0.3.1
 #
 # The MIT License (MIT)
 #
@@ -112,8 +112,6 @@ class zhuyin_typo(Tkinter.Tk):
                 subprocess.call(['open',
                                  '-a',
                                  'Notes'])
-            elif os == 'Windows':
-                subprocess.call(['notepad.exe'])
             time.sleep(1)
             pyautogui.typewrite(self.entryVariable.get())
 

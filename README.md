@@ -19,13 +19,11 @@
 
 - **AppleScript** (OS X)
 - **Objective-C** (OS X)
-- **Python** (OS X, Windows*)
-
-**尚待修正。*
-
+- **Python** (OS X, Windows)
 
 ##更新日誌
 
+- **0.3.1**：修正 Windows 版。（Python）
 - **0.3**：改進自動輸入。
 - **0.2**：新增自動輸入。
 - **0.1**：初版。 
