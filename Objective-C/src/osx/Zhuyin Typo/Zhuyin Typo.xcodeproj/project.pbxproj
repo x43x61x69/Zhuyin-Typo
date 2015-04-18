@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B770C4AC1AE1BD8A00A3E4EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B770C4AB1AE1BD8A00A3E4EB /* AppDelegate.m */; };
+		B770C4AE1AE1BD8A00A3E4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B770C4AD1AE1BD8A00A3E4EB /* main.m */; };
+		B770C4B01AE1BD8A00A3E4EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B770C4AF1AE1BD8A00A3E4EB /* Images.xcassets */; };
+		B770C4B31AE1BD8A00A3E4EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B770C4B11AE1BD8A00A3E4EB /* MainMenu.xib */; };
+		B770C4BF1AE1BD8A00A3E4EB /* Zhuyin_TypoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B770C4BE1AE1BD8A00A3E4EB /* Zhuyin_TypoTests.m */; };
+		B770C4C91AE1C01E00A3E4EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B770C4C81AE1C01E00A3E4EB /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B770C4B91AE1BD8A00A3E4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B770C49D1AE1BD8A00A3E4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B770C4A41AE1BD8A00A3E4EB;
+			remoteInfo = "Zhuyin Typo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B770C4A51AE1BD8A00A3E4EB /* Zhuyin Typo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zhuyin Typo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B770C4A91AE1BD8A00A3E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B770C4AA1AE1BD8A00A3E4EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B770C4AB1AE1BD8A00A3E4EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B770C4AD1AE1BD8A00A3E4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B770C4AF1AE1BD8A00A3E4EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B770C4B21AE1BD8A00A3E4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B770C4B81AE1BD8A00A3E4EB /* Zhuyin TypoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhuyin TypoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B770C4BD1AE1BD8A00A3E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B770C4BE1AE1BD8A00A3E4EB /* Zhuyin_TypoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zhuyin_TypoTests.m; sourceTree = "<group>"; };
+		B770C4C81AE1C01E00A3E4EB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B770C4A21AE1BD8A00A3E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B770C4B51AE1BD8A00A3E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B770C49C1AE1BD8A00A3E4EB = {
+			isa = PBXGroup;
+			children = (
+				B770C4C81AE1C01E00A3E4EB /* LICENSE */,
+				B770C4A71AE1BD8A00A3E4EB /* Zhuyin Typo */,
+				B770C4BB1AE1BD8A00A3E4EB /* Zhuyin TypoTests */,
+				B770C4A61AE1BD8A00A3E4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B770C4A61AE1BD8A00A3E4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B770C4A51AE1BD8A00A3E4EB /* Zhuyin Typo.app */,
+				B770C4B81AE1BD8A00A3E4EB /* Zhuyin TypoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B770C4A71AE1BD8A00A3E4EB /* Zhuyin Typo */ = {
+			isa = PBXGroup;
+			children = (
+				B770C4AA1AE1BD8A00A3E4EB /* AppDelegate.h */,
+				B770C4AB1AE1BD8A00A3E4EB /* AppDelegate.m */,
+				B770C4AF1AE1BD8A00A3E4EB /* Images.xcassets */,
+				B770C4B11AE1BD8A00A3E4EB /* MainMenu.xib */,
+				B770C4A81AE1BD8A00A3E4EB /* Supporting Files */,
+			);
+			path = "Zhuyin Typo";
+			sourceTree = "<group>";
+		};
+		B770C4A81AE1BD8A00A3E4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B770C4A91AE1BD8A00A3E4EB /* Info.plist */,
+				B770C4AD1AE1BD8A00A3E4EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B770C4BB1AE1BD8A00A3E4EB /* Zhuyin TypoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B770C4BE1AE1BD8A00A3E4EB /* Zhuyin_TypoTests.m */,
+				B770C4BC1AE1BD8A00A3E4EB /* Supporting Files */,
+			);
+			path = "Zhuyin TypoTests";
+			sourceTree = "<group>";
+		};
+		B770C4BC1AE1BD8A00A3E4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B770C4BD1AE1BD8A00A3E4EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B770C4A41AE1BD8A00A3E4EB /* Zhuyin Typo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B770C4C21AE1BD8A00A3E4EB /* Build configuration list for PBXNativeTarget "Zhuyin Typo" */;
+			buildPhases = (
+				B770C4A11AE1BD8A00A3E4EB /* Sources */,
+				B770C4A21AE1BD8A00A3E4EB /* Frameworks */,
+				B770C4A31AE1BD8A00A3E4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zhuyin Typo";
+			productName = "Zhuyin Typo";
+			productReference = B770C4A51AE1BD8A00A3E4EB /* Zhuyin Typo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B770C4B71AE1BD8A00A3E4EB /* Zhuyin TypoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B770C4C51AE1BD8A00A3E4EB /* Build configuration list for PBXNativeTarget "Zhuyin TypoTests" */;
+			buildPhases = (
+				B770C4B41AE1BD8A00A3E4EB /* Sources */,
+				B770C4B51AE1BD8A00A3E4EB /* Frameworks */,
+				B770C4B61AE1BD8A00A3E4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B770C4BA1AE1BD8A00A3E4EB /* PBXTargetDependency */,
+			);
+			name = "Zhuyin TypoTests";
+			productName = "Zhuyin TypoTests";
+			productReference = B770C4B81AE1BD8A00A3E4EB /* Zhuyin TypoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B770C49D1AE1BD8A00A3E4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Zhi-Wei Cai";
+				TargetAttributes = {
+					B770C4A41AE1BD8A00A3E4EB = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 928652TY3Y;
+					};
+					B770C4B71AE1BD8A00A3E4EB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B770C4A41AE1BD8A00A3E4EB;
+					};
+				};
+			};
+			buildConfigurationList = B770C4A01AE1BD8A00A3E4EB /* Build configuration list for PBXProject "Zhuyin Typo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B770C49C1AE1BD8A00A3E4EB;
+			productRefGroup = B770C4A61AE1BD8A00A3E4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B770C4A41AE1BD8A00A3E4EB /* Zhuyin Typo */,
+				B770C4B71AE1BD8A00A3E4EB /* Zhuyin TypoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B770C4A31AE1BD8A00A3E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B770C4C91AE1C01E00A3E4EB /* LICENSE in Resources */,
+				B770C4B01AE1BD8A00A3E4EB /* Images.xcassets in Resources */,
+				B770C4B31AE1BD8A00A3E4EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B770C4B61AE1BD8A00A3E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B770C4A11AE1BD8A00A3E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B770C4AE1AE1BD8A00A3E4EB /* main.m in Sources */,
+				B770C4AC1AE1BD8A00A3E4EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B770C4B41AE1BD8A00A3E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B770C4BF1AE1BD8A00A3E4EB /* Zhuyin_TypoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B770C4BA1AE1BD8A00A3E4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B770C4A41AE1BD8A00A3E4EB /* Zhuyin Typo */;
+			targetProxy = B770C4B91AE1BD8A00A3E4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B770C4B11AE1BD8A00A3E4EB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B770C4B21AE1BD8A00A3E4EB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B770C4C01AE1BD8A00A3E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B770C4C11AE1BD8A00A3E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B770C4C31AE1BD8A00A3E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Zhuyin Typo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B770C4C41AE1BD8A00A3E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Zhuyin Typo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B770C4C61AE1BD8A00A3E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zhuyin TypoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhuyin Typo.app/Contents/MacOS/Zhuyin Typo";
+			};
+			name = Debug;
+		};
+		B770C4C71AE1BD8A00A3E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zhuyin TypoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhuyin Typo.app/Contents/MacOS/Zhuyin Typo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B770C4A01AE1BD8A00A3E4EB /* Build configuration list for PBXProject "Zhuyin Typo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B770C4C01AE1BD8A00A3E4EB /* Debug */,
+				B770C4C11AE1BD8A00A3E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B770C4C21AE1BD8A00A3E4EB /* Build configuration list for PBXNativeTarget "Zhuyin Typo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B770C4C31AE1BD8A00A3E4EB /* Debug */,
+				B770C4C41AE1BD8A00A3E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B770C4C51AE1BD8A00A3E4EB /* Build configuration list for PBXNativeTarget "Zhuyin TypoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B770C4C61AE1BD8A00A3E4EB /* Debug */,
+				B770C4C71AE1BD8A00A3E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B770C49D1AE1BD8A00A3E4EB /* Project object */;
+}

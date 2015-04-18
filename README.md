@@ -18,6 +18,7 @@
 ##目前已實作的語言
 
 - AppleScript (OS X)
+- Objective-C (OS X)
 - Python (OS X, Windows)
 
 ##更新日誌
